@@ -7,21 +7,35 @@
     <title>API</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        #posts{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .card{
+            width: 300px;
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: beige;
+        }
+    </style>
 </head>
 <body>
 
     <div align="center">
-        <h1>API</h1>
-        <div>
-            <ul id="users">
+        <h1>POST</h1>
+        <section id="posts">
 
-            </ul>
-        </div>
-        <button id="loadData">Load Data</button>
-        <button id="loadUsers">Load Users</button>
+        </section>
+        <button id="loadPost">Load Post</button>
     </div>
 
-    <script src="script.js"></script>
+    <script src="post.js"></script>
     
 </body>
 </html>
