@@ -1,4 +1,4 @@
-document.getElementById("loadPost").addEventListener('click', function loadUsers(){
+document.getElementById("loadPost").addEventListener('click', function(){
     fetch("https://jsonplaceholder.typicode.com/posts")
     .then(res => res.json())
     .then(data => displayPost(data))
