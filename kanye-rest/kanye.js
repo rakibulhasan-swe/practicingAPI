@@ -6,5 +6,5 @@ document.getElementById("loadQuote").addEventListener('click', function(){
 
 const showingQuotes = (quotes) => {
     const quote = document.getElementById("quote");
-    quote.innerText = quotes.quote;
+    quote.innerText = `"${quotes.quote}"`;
 }
