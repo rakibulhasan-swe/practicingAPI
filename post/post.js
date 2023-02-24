@@ -15,3 +15,5 @@ const displayPost = (posts) => {
         postContainer.appendChild(div);
     }
 }
+
+ 
